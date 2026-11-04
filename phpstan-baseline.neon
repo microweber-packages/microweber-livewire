@@ -1,13 +1,1 @@
 parameters:
-	ignoreErrors:
-		-
-			message: '#^Access to constant APP_VERSION on an unknown class MicroweberPackages\\App\\LaravelApplication\.$#'
-			identifier: class.notFound
-			count: 2
-			path: src/LivewireFrontendAssetsManager.php
-
-		-
-			message: '#^Function userfiles_path not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/LivewireFrontendAssetsManager.php
